@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import "assets/css/index.css";
+import "assets/css/tailwind.css";
 // import "assets/scss/base.scss";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";

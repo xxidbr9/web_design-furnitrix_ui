@@ -16,7 +16,6 @@
     "react-dom": "^17.0.1",
     "react-scripts": "4.0.1",
     "scrollmagic": "^2.0.8",
-    "styled-components": "^5.2.1",
     "swiper": "^6.3.5",
     "tailwind.macro": "^0.5.10",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
@@ -24,9 +23,10 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "craco build",
+    "build": "react-scripts build",
     "test": "craco test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build:css":"tailwindcss-cli build ./src/assets/css/index.css -o ./src/assets/css/tailwind.css"
   },
   "eslintConfig": {
     "extends": [
@@ -45,5 +45,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss-cli": "^0.1.2"
   }
 }
