@@ -1,8 +1,7 @@
 import React, { useEffect, useContext } from "react";
 import Devider from "components/atoms/Devider";
 
-import { TimelineLite, gsap, Power3 } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { TimelineLite, Power3 } from "gsap";
 import { LoadingContext } from "utils/contexts/Loading";
 import { TIME_OUT } from "utils/constants";
 

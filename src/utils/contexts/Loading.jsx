@@ -1,4 +1,4 @@
-import React, { useContext, createContext } from "react";
+import React, { createContext } from "react";
 import useLoad from "utils/hooks/useLoad";
 
 export const LoadingContext = createContext();
