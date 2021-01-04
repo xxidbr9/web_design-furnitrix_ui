@@ -2,7 +2,7 @@
   "name": "furniture_app",
   "version": "0.1.0",
   "private": true,
-  "homepage":"https://xxidbr9.github.io/web_design-furnitrix_ui",
+  "homepage": "https://xxidbr9.github.io/web_design-furnitrix_ui",
   "dependencies": {
     "@craco/craco": "^5.8.0",
     "@testing-library/jest-dom": "^5.11.4",
@@ -24,10 +24,10 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "react-scripts build",
     "test": "craco test",
     "eject": "react-scripts eject",
-    "build:css":"tailwindcss-cli build ./src/assets/css/index.css -o ./src/assets/css/tailwind.css"
+    "build:css": "tailwindcss-cli build ./src/assets/css/index.css -o ./src/assets/css/tailwind.css",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
